@@ -1,3 +1,4 @@
+NAME   := opyate/gitlab-firebase-deploy
 TAG    := $$(git log -1 --pretty=%!H(MISSING))
 IMG    := ${NAME}:${TAG}
 LATEST := ${NAME}:latest
